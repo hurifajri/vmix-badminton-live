@@ -1,0 +1,114 @@
+﻿<UserControl   
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+    Width="1920" Height="1080" Panel.ZIndex="500">
+    <UserControl.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Height)" Storyboard.TargetName="background">
+                <SplineDoubleKeyFrame KeyTime="0" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="72"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="82"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="92"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="102"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="112"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.1" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.2" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.3" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.5" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.7" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.8" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.9" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.0" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.1" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.2" Value="121"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.3" Value="131"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.4" Value="141"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.5" Value="151"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.6" Value="161"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.7" Value="172"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="title">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="description">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="credits">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.8" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.9" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:2.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:3.1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="background">
+                <DiscreteObjectKeyFrame KeyTime="0:0:8.1" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="title">
+                <DiscreteObjectKeyFrame KeyTime="0:0:8.1" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="description">
+                <DiscreteObjectKeyFrame KeyTime="0:0:8.1" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="credits">
+                <DiscreteObjectKeyFrame KeyTime="0:0:8.1" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+    <Grid>
+        <Image Source="Media/venue.png" x:Name="background" Width="1059" Height="172" HorizontalAlignment="Center" Stretch="None" Margin="430.5,758,430.5,0" VerticalAlignment="Top" />
+        <my:TextBlockDesign Fill="Black" FontSize="30" Text="" x:Name="title" Width="650" HorizontalAlignment="Center" VerticalAlignment="Bottom" Canvas.Left="400" Canvas.Top="94.492" Height="34.497" Margin="635,0,635,269.26" FontWeight="Bold" TextAlignment="Center" />
+        <my:TextBlockDesign Fill="#FFFFFF" FontSize="25" Text="" x:Name="description" Width="650" HorizontalAlignment="Center" VerticalAlignment="Bottom" Canvas.Left="400" Canvas.Top="94.492" Height="28.747" Margin="635,0,635,210.5" FontWeight="Medium" MinHeight="28.7466659545898" TextAlignment="Center" />
+        <my:TextBlockDesign Fill="#FFFFFF" FontSize="25" Text="" x:Name="credits" Width="650" HorizontalAlignment="Center" VerticalAlignment="Bottom" Canvas.Left="400" Canvas.Top="94.492" Height="28.747" Margin="635,0,635,161" FontWeight="SemiBold" MinHeight="28.7466659545898" TextAlignment="Center" />
+    </Grid>
+</UserControl>

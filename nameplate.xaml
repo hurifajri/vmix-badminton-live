@@ -1,0 +1,126 @@
+﻿<UserControl   
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary"
+    Width="1920" Height="1080" Panel.ZIndex="500">
+    <UserControl.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="bgteam1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="101"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="201"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="301"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="401"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="501"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="535"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="team1_flag">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="team1_fullname_p1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="bgteam2">
+                <SplineDoubleKeyFrame KeyTime="0" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="51"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="101"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="201"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="301"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="401"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="501"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="535"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="team2_flag">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="team2_fullname_p1">
+                <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.0" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="0:0:1.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="bgteam1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:6.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="team1_flag">
+                <DiscreteObjectKeyFrame KeyTime="0:0:6.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="team1_fullname_p1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:6.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="bgteam2">
+                <DiscreteObjectKeyFrame KeyTime="0:0:6.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="team2_flag">
+                <DiscreteObjectKeyFrame KeyTime="0:0:6.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="team2_fullname_p1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:6.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </UserControl.Triggers>
+    <Grid>
+        <Image Source="Media/nameplate-left.png" x:Name="bgteam1" Width="535" Height="51" Margin="200,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="None" />
+        <Image Source="Media/Flag/flag1.png" x:Name="team1_flag" Width="48.08" Height="32.082" Margin="263,159,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Fill" />
+        <my:TextBlockDesign Fill="Black" FontSize="25" Text="" Name="team1_fullname_p1" Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="400" Canvas.Top="94.492" Height="28.747" Margin="323,161,0,0" FontWeight="Medium" MinHeight="28.7466659545898" TextAlignment="Left" />
+        <Image Source="Media/nameplate-right.png" x:Name="bgteam2" Width="535" Height="51" Margin="0,0,200,150" HorizontalAlignment="Right" VerticalAlignment="Bottom" Stretch="None" RenderTransformOrigin="0.5,0.5" FlowDirection="RightToLeft" >
+            <Image.LayoutTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.LayoutTransform>
+        </Image>
+        <Image Source="Media/Flag/flag2.png" x:Name="team2_flag" Width="48.08" Height="32.082" Margin="0,0,263,159" HorizontalAlignment="Right" VerticalAlignment="Bottom" Stretch="Fill" />
+        <my:TextBlockDesign Fill="Black" FontSize="25" Text="" Name="team2_fullname_p1" Width="400" HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.Left="400" Canvas.Top="94.492" Height="28.747" FontWeight="Medium" MinHeight="28.7466659545898" TextAlignment="Right" Margin="0,0,323,161" />
+    </Grid>
+</UserControl>
