@@ -1,2 +1,2 @@
-# badminton-live
-Badminton live streaming animation.
+# vmix-badminton-live
+Badminton live streaming animation for vMix.
