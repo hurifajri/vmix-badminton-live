@@ -1,2 +1,2 @@
 # vmix-badminton-live
-Badminton live streaming animation for vMix.
+Badminton live streaming graphical subsystem for vMix.
